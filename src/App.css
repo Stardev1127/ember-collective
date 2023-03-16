@@ -1,0 +1,858 @@
+body {
+  font-family: "Karla", sans-serif;
+  color: rgb(131, 46, 0);
+  background-color: rgb(241, 227, 219);
+}
+
+.header {
+  overflow: hidden;
+  padding: 40px 140px;
+  display: flex;
+}
+
+div.container {
+  padding: 30px 140px;
+  margin-bottom: 100px;
+  position: relative;
+  min-height: 100vh;
+}
+
+h1.memorial {
+  font-size: 66px;
+  line-height: 68px;
+  margin: 100px 0px 40px;
+}
+
+div#memorial.container {
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 252, 248);
+  margin-bottom: 0;
+}
+
+div.footer {
+  background-color: rgb(45, 45, 45);
+  overflow: hidden;
+  color: rgb(255, 252, 248);
+  padding: 0px 80px;
+  bottom: 0;
+}
+
+a.footer-left {
+  color: rgb(255, 252, 248);
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-weight: 900;
+}
+
+a.footer-right {
+  color: rgb(255, 252, 248);
+  font-size: 16px;
+  float: right;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-weight: 900;
+}
+
+a.header-link.active, a.header-link {
+  float: left;
+  color: rgb(45, 45, 45);
+  padding: 4px 40px 4px 0px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+a.header-link.active:hover, a.header-link:hover {
+  opacity: 0.2;
+}
+
+.social-icon {
+  width: 34px !important;
+  height: 34px !important;
+  margin: 10px 10px 10px 0px;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  opacity: 0.75;
+}
+
+g.social-svg-mask {
+  fill: rgb(45, 45, 45) !important;
+}
+
+g.social-svg-icon {
+  fill: rgb(255, 252, 248) !important;
+}
+
+h1 {
+  text-align: left;
+  margin: 40px 0px 20px 0px;
+  font-size: 80px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+
+h1.welcome {
+  font-size: 90px;
+  margin: 60px 180px 20px 160px;
+}
+
+h1.profile {
+  font-size: 60px;
+  margin: 0px 0px 20px 0px;
+}
+
+h1.org-profile {
+  margin: 20px 0px 20px 0px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 14px 14px 0px 0px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+
+h2.resource-tile {
+  color: rgb(255, 252, 248);
+  padding: 40px;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+a.welcome {
+  color: rgb(131, 46, 0)
+}
+
+a.card {
+  color: rgb(255, 252, 248);
+}
+
+h2.welcome {
+  margin: 60px 200px 100px 160px;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Karla", sans-serif
+}
+
+h2#police-brutality.welcome {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Karla", sans-serif
+}
+
+h2.section {
+  font-size: 32px;
+  margin-top: 60px;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 16px 0px
+}
+
+h3.username {
+  font-size: 30px
+}
+
+h4 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin: 20px 0px
+}
+
+h4#police-brutality {
+  color: rgb(131, 46, 0);
+  margin-bottom: 20px;
+}
+
+h4.card, h2.card, p.card {
+  color: rgb(43, 40, 40);
+}
+
+p.card {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+a#username {
+  color: rgb(43, 40, 40);
+  font-weight: 900;
+}
+
+h2.card {
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 22px;
+  margin: 12px 0px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+p.donation-stat {
+  margin: 10px 0px;
+  color: rgb(43, 40, 40);
+  line-height: normal;
+}
+
+p.results {
+  margin: 0px 80px;
+  font-weight: 900;
+}
+
+p.description {
+  padding: 0px 30px
+}
+
+p.form-description {
+  margin: 10px 0px -10px;
+  width: 60%
+}
+
+p.error {
+  font-weight: 900;
+  font-size: 16px;
+  color: red;
+  margin: 0px 0px 20px
+}
+
+a.small-button:link, a.small-button:visited {
+  text-decoration: none;
+  color: rgb(45, 45, 45);
+}
+
+a.card-button:link, a.card-button:visited {
+  text-decoration: none;
+  color: rgb(255, 252, 248);
+}
+
+textarea {
+  height: 100px;
+  width: 50%;
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 900;
+  border: 2px solid rgb(131, 46, 0);
+  margin: 20px 0px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+}
+
+input {
+  height: 40px;
+  width: 30%;
+  border-radius: 4px;
+  padding: 4px 14px;
+  margin: 20px 0px;
+  border: 2px solid rgb(131, 46, 0);
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: rgb(45, 45, 45);
+}
+
+input.filter-input {
+  height: 40px;
+  width: 80%;
+  border-radius: 4px;
+  padding: 4px 14px;
+  font-size: 18px;
+  border: 2px solid rgb(131, 46, 0);
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: rgb(45, 45, 45);
+}
+
+.submit-button {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 14px;
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 252, 248);
+  border: none;
+  margin: 14px 0px;
+  transition: 0.3s
+}
+
+.submit-button:hover {
+  opacity: 0.75;
+}
+
+
+.footer-button {
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 14px;
+  background-color: rgb(45, 45, 45);
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  margin: 14px 0px;
+  transition: 0.3s
+}
+
+.footer-button:hover {
+  opacity: 0.75;
+}
+
+.submit-button#invalid {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: default;
+  border-radius: 4px;
+  padding: 12px 14px;
+  background-color: rgba(45, 45, 45);
+  color: rgb(255, 252, 248);
+  border: none;
+  margin: 14px 0px;
+  width: 14%;
+  opacity: 0.5;
+}
+
+::placeholder {
+  color: rgb(131, 46, 0, 0.5);
+}
+
+form {
+  margin-top: 40px
+}
+
+button {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 14px;
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 252, 248);
+  border: none;
+  margin: 10px 0px;
+}
+
+button.danger {
+  background-color: rgb(169, 0, 0);
+}
+
+button.card-button {
+  font-size: 16px;
+  padding: 10px 10px;
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 252, 248);
+  transition: 0.3s;
+}
+
+button#verify.card-button {
+  float: right;
+}
+
+button.card-button:hover {
+  opacity: 0.75
+}
+
+button.filter-button {
+  font-size: 16px;
+  padding: 10px 16px;
+  background-color: rgb(131, 46, 0);
+  color: rgb(255, 252, 248);
+  transition: 0.3s
+}
+
+button.filter-button:hover {
+  opacity: 0.75;
+}
+
+.btn-group button:not(:last-child) {
+  margin-right: 12px
+}
+
+.filter {
+  border-radius: 6px;
+  padding: 30px;
+  text-align: left;
+  margin: 40px 80px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+  background-color: rgb(255, 252, 248);
+}
+
+.org-container {
+  margin: 80px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.org-tile {
+  flex: 0 1 27%;
+  background-color: rgb(226, 179, 154);
+  color: rgb(255, 252, 248) !important; 
+  margin: 0px 20px 40px 0px;
+  padding: 16px 30px 30px 30px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.org-tile:hover {
+  box-shadow: 0 2px 16px 0 rgba(70, 26, 0, 0.2);
+}
+
+.org-tile:nth-child(odd) {
+  background-color: rgb(226, 208, 205);
+}
+
+.org-tile:nth-child(odd):hover {
+  box-shadow: 0 2px 16px 0 rgba(70, 26, 0, 0.1);
+}
+
+.org-tile:nth-child(4n+0) {
+  background-color: rgb(244, 239, 235);
+}
+
+.org-tile:nth-child(4n+0):hover {
+  box-shadow: 0 2px 16px 0 rgba(0, 62, 70, 0.2);
+}
+
+label {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+div.user-info {
+  background-color: rgb(255, 252, 248);
+  border-radius: 6px;
+  padding: 40px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+}
+
+div.other-user-info {
+  background-color: rgb(131, 46, 0);
+  color: rgb(240, 240, 240);
+  border-radius: 6px;
+  padding: 40px;
+}
+
+div.donations {
+  background-color: rgb(255, 252, 248);
+  border-radius: 6px;
+  margin: 40px 0px;
+  padding: 20px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+}
+
+div.donation-stat {
+  margin: 30px 0px;
+}
+
+select {
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%;
+	-moz-appearance: none; 
+	-webkit-appearance: none; 
+	appearance: none;
+  height: 54px;
+  width: 32%;
+  border-radius: 4px;
+  padding: 4px 14px;
+  margin: 20px 0px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  border: 2px solid rgb(131, 46, 0);
+  font-weight: 900;
+  color: rgb(45, 45, 45);
+  background-color: white;
+}
+
+div.received-challenges, div.send-challenge {
+  padding: 0px 30px;
+  margin-bottom: 40px;
+}
+
+button.tag {
+  font-weight: 900;
+  margin: 6px 4px 6px 0px;
+  border-radius: 4px;
+  background-color: rgb(255, 252, 248);
+  color: rgb(131, 46, 0);
+  text-align: center;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+div#org.btn-group {
+  pointer-events: none;
+}
+
+div.org-header {
+  margin-bottom: 40px;
+}
+
+div.org-body {
+  border-radius: 6px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+  background-color: rgb(255, 252, 248);
+  margin-top: 20px;
+}
+
+input.radio {
+  height: 16px;
+  width: 6%
+}
+
+div.resource-container {
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+div.resources-filter {
+  border-radius: 6px;
+  padding: 30px;
+  text-align: left;
+  margin: 40px 0px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+  background-color: rgb(255, 252, 248);
+}
+
+div.acknowledgements {
+  margin: 60px 0px;
+}
+
+ul {
+  list-style: none
+}
+
+li {
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 0rem;
+  text-indent: -1.7rem;
+  padding: 4px
+}
+
+li::before {
+  content: "🌟  ";
+}
+
+img.resource-img {
+  width: 275px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+  float: left;
+}
+
+div.resource-tile {
+  background-color: rgb(255, 252, 248);
+  color: rgb(45, 45, 45);
+  border-radius: 6px;
+  padding: 30px;
+  margin: 0px 0px 30px 310px;
+  break-inside: avoid;
+  transition: 0.3s;
+}
+
+div.image-replacement {
+  background-color: rgb(131, 46, 0);
+  width: 275px;
+  height: 350px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+  float: left;
+}
+
+div.thin-rule {
+  width: 20%;
+  border: 3px solid rgb(45, 45, 45);
+  margin: 20px 0px 20px 0px
+}
+
+#flex-container {
+  margin: 40px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.police-brutality-resource {
+  flex: 0 1 25%;
+  background-color: rgb(255, 252, 248);
+  margin: 0px 20px 40px 0px;
+  padding: 16px 30px 16px 30px;
+  border-radius: 6px;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.police-brutality-resource:hover {
+  box-shadow: 0 2px 16px 0 rgba(70, 26, 0, 0.2);
+}
+
+div.police-brutality-resources-intro {
+  background-color: rgb(45, 45, 45);
+  padding: 100px 140px 60px 140px;
+  color: rgb(255, 252, 248);
+}
+
+#police-brutality {
+  margin-bottom: 40px;
+}
+
+div.profile-card {
+  flex: 0 1 30%;
+  background-color: rgb(255, 252, 248);
+  color: rgb(45, 45, 45);
+  border-radius: 6px;
+  margin: 40px 20px 0px 0px;
+}
+
+div.card-info {
+  padding: 10px 24px;
+}
+
+img.profile-card {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px 6px 0px 0px;
+}
+
+a.profile-card {
+  color: rgb(255, 252, 248)
+}
+
+div.section-divider {
+  border: 4px solid rgb(255, 252, 248);
+  width: 6%;
+}
+
+@media only screen and (max-width: 892px) {
+  div.header {
+    margin: 40px;
+    padding: 0px;
+  }
+
+  h1.welcome {
+    margin: 80px 40px 40px 40px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  h1.org-profile {
+    margin: 40px 20px 20px 20px;
+  }
+
+  h1 {
+    margin: 80px 20px 20px 20px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  h1.memorial {
+    font-size: 50px;
+    line-height: 56px;
+    margin: 40px 20px;
+  }
+
+  h2 {
+    line-height: 42px;
+  }
+
+  h2.welcome {
+    margin: 40px;
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  h2#police-brutality.welcome {
+    margin: 40px 20px;
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  h2.section {
+    margin: 60px 0px 20px 0px;
+  }
+
+  h2.resource {
+    font-size: 36px;
+    line-height: 38px;
+  }
+
+  h3.username {
+    font-size: 24px;
+  }
+
+  h4 {
+    margin: 20px;
+  }
+
+  h4.card, h4#police-brutality {
+    margin: 20px 0px;
+  }
+
+  p.card {
+    font-size: 18px;
+  }
+
+  .header {
+    display: table;
+  }
+
+  a.header-link.active, a.header-link {
+    padding: 0px;
+    width: 100%;
+  }
+
+  div.filter {
+    margin: 20px;
+  }
+
+  div.org-container, div.container {
+    margin: 20px;
+    display: block;
+    padding: 0;
+  }
+
+  div#flex-container {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  div.profile-card {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+  }
+
+  div.police-brutality-resources-intro {
+    padding: 60px 40px;
+  }
+
+  div.section-divider {
+    width: 50%;
+  }
+
+  div.org-tile {
+    margin: 0px 0px 20px 0px;
+  }
+
+  div.footer {
+    justify-content: center;
+    padding: 10px 20px;
+  }
+  
+  a.footer-left, a.footer-right {
+    float: none;
+  }
+
+  input, select {
+    width: 100%;
+  }
+
+  input.filter-input {
+    width: 90%;
+  }
+
+  input.account {
+    width: 80%;
+    margin: 20px 0px;
+  }
+
+  textarea {
+    width: 80%;
+  }
+
+  form {
+    margin: 40px 20px;
+  }
+
+  form.donation {
+    margin: 0;
+  }
+
+  button.submit-button#invalid, button.submit-button, button.filter-button, button#verify.card-button, button.danger {
+    width: 100%;
+  }
+
+  #org.btn-group {
+    margin: 20px;
+  }
+
+  img.resource-img {
+    width: 100%;
+    float: none;
+    margin-bottom: -10px;
+    border-radius: 6px 6px 0px 0px;
+  }
+
+  div.image-replacement {
+    display: none;
+  }
+
+  div.resource-tile {
+    margin: 0px 0px 20px 0px;
+    padding: 30px;
+  }
+
+  p.description {
+    padding: 0px 20px
+  }
+
+  button#verify.card-button {
+    float: none;
+  }
+
+  div.donations {
+    padding: 40px;
+  }
+
+  div.send-challenge, div.received-challenges {
+    padding: 0;
+  }
+
+  div#memorial.container {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .memorial {
+    margin: 40px 20px;
+  }
+
+  div.profile-card {
+    margin: 40px 20px;
+    width: 90%;
+  }
+
+  p.form-description {
+    width: 100%;
+  }
+}
